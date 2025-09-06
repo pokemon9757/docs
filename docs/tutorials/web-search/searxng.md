@@ -180,10 +180,6 @@ search:
     - json # json is required
   # remove format to deny access, use lower case.
   # formats: [html, csv, json, rss]
-redis:
-  # URL to connect redis database. Is overwritten by ${SEARXNG_REDIS_URL}.
-  # https://docs.searxng.org/admin/settings/settings_redis.html#settings-redis
-  url: redis://redis:6379/0
 ```
 
 The port in the settings.yml file for SearXNG should match that of the port number in your docker-compose.yml file for SearXNG.
